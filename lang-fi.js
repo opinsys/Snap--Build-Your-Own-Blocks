@@ -213,6 +213,8 @@ SnapTranslator.dict.fi = {
         'Muuttujat',
     'Lists':
         'Listat',
+   'Bear':
+        'Nalle',
     'Other':
         'Muut',
 
@@ -433,6 +435,11 @@ SnapTranslator.dict.fi = {
         'sanoma',
     'any message':
         'mik\u00e4 tahansa',
+    // Teddy Bear
+    'set %leftPaw to %pawValue':
+    'aseta %leftPaw kohtaan %pawValue',
+    'set %rightPaw to %pawValue':
+    'aseta %rightPaw kohtaan %pawValue',
     'wait %n secs':
         'odota %n sekuntia',
     'wait until %b':
