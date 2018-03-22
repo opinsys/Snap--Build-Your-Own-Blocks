@@ -267,6 +267,10 @@ IDE_Morph.prototype.init = function (isAutoFill) {
 
     // override inherited properites:
     this.color = this.backgroundColor;
+
+    var language = "fi";
+    this.saveSetting('language', language);
+    this.applySavedSettings();
 };
 
 IDE_Morph.prototype.openIn = function (world) {
