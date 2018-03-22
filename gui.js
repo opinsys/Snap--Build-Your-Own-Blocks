@@ -252,7 +252,7 @@ IDE_Morph.prototype.init = function (isAutoFill) {
     this.hasChangedMedia = false;
 
     this.isAnimating = true;
-    this.paletteWidth = 200; // initially same as logo width
+    this.paletteWidth = 400; // initially same as logo width
     this.stageRatio = 1; // for IDE animations, e.g. when zooming
 
 	this.wasSingleStepping = false; // for toggling to and from app mode
