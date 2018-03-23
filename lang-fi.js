@@ -461,6 +461,10 @@ SnapTranslator.dict.fi = {
         'myötäpäivään',
     'counter-clockwise':
         'vastapäivään',
+    'Board connected':
+        'Yhteys muodostettu',
+    'An Arduino board has been connected. Happy prototyping!':
+        'Yhteys Nalleen on nyt kunnossa. Hauskoja hetkiä ohjelmoinnin parissa!',
     'wait %n secs':
         'odota %n sekuntia',
     'wait until %b':
