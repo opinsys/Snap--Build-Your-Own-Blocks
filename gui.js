@@ -646,7 +646,7 @@ IDE_Morph.prototype.createControlBar = function () {
     button.fixLayout();
     button.refresh();
     stageSizeButton = button;
-    this.controlBar.add(stageSizeButton);
+    //this.controlBar.add(stageSizeButton);
     this.controlBar.stageSizeButton = button; // for refreshing
 
     //appModeButton
@@ -678,7 +678,7 @@ IDE_Morph.prototype.createControlBar = function () {
     button.fixLayout();
     button.refresh();
     appModeButton = button;
-    this.controlBar.add(appModeButton);
+    //this.controlBar.add(appModeButton);
     this.controlBar.appModeButton = appModeButton; // for refreshing
 
     //steppingButton
@@ -711,7 +711,7 @@ IDE_Morph.prototype.createControlBar = function () {
     button.fixLayout();
     button.refresh();
     steppingButton = button;
-    this.controlBar.add(steppingButton);
+    //this.controlBar.add(steppingButton);
     this.controlBar.steppingButton = steppingButton; // for refreshing
 
     // stopButton
