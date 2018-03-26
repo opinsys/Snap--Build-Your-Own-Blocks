@@ -1766,7 +1766,7 @@ IDE_Morph.prototype.fixLayout = function (situation) {
             this.stage.setTop(this.logo.bottom() + padding);
             this.stage.setRight(this.right());
             maxPaletteWidth = Math.max(
-                200,
+                350,
                 this.width() -
                     this.stage.width() -
                     this.spriteBar.tabBar.width() -
