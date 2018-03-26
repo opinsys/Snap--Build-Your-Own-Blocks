@@ -6750,7 +6750,7 @@ ScriptsMorph.prototype.addToolbar = function () {
     toolBar.keyboardButton.labelShadowColor = shade;
     toolBar.keyboardButton.drawNew();
     toolBar.keyboardButton.fixLayout();
-    toolBar.add(toolBar.keyboardButton);
+    //toolBar.add(toolBar.keyboardButton);
 
     return toolBar;
 };
