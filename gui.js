@@ -1220,7 +1220,7 @@ IDE_Morph.prototype.createSpriteBar = function () {
 
     this.spriteBar = new Morph();
     this.spriteBar.color = this.frameColor;
-    this.add(this.spriteBar);
+    //this.add(this.spriteBar);
 
     function addRotationStyleButton(rotationStyle) {
         var colors = myself.rotationStyleColors,
