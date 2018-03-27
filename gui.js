@@ -1196,7 +1196,7 @@ IDE_Morph.prototype.createStageHandle = function () {
     // assumes that the stage has already been created
     if (this.stageHandle) {this.stageHandle.destroy(); }
     this.stageHandle = new StageHandleMorph(this.stage);
-    this.add(this.stageHandle);
+    //this.add(this.stageHandle);
 };
 
 IDE_Morph.prototype.createSpriteBar = function () {
@@ -8620,7 +8620,7 @@ StageHandleMorph.prototype.fixLayout = function () {
     var ide = this.target.parentThatIsA(IDE_Morph);
     this.setTop(this.target.top() + 10);
     this.setRight(this.target.left());
-    if (ide) {ide.add(this); } // come to front
+    //if (ide) {ide.add(this); } // come to front
 };
 
 // StageHandleMorph stepping:
